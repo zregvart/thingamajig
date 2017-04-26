@@ -1,0 +1,7 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: 'salesforce-upsert-contact:'
+  - kind: endpoint
+    uri: 'http-post:'
